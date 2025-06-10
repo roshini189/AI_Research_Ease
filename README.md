@@ -39,4 +39,4 @@
 
 - **Local-Only Inference** with Ollama (no external API calls)  
 - **AES-level Secure File Handling**  
-- **Ephemeral In-Memory Processing** (no long-term data storage)
+- 
