@@ -1,7 +1,9 @@
 🧠 AIResearchEase – Simplifying Research with AI 🤖📄
+
 AIResearchEase is a secure and intelligent AI-powered web application designed to simplify the way researchers interact with academic literature. By combining Retrieval-Augmented Generation (RAG), semantic search, and real-time LLM responses, this tool enables users to upload research papers, ask questions, and receive context-aware answers and summaries instantly.
 
 🔍 Key Features:
+
 🧠 AI-Powered Research Assistant – Supports real-time Q&A and summarization of uploaded research papers using Large Language Models (LLMs).
 📄 PDF Upload & Parsing – Seamlessly extract content from academic PDFs using pdfplumber.
 📚 FAISS Vector Search – Fast semantic search using Sentence Transformers and FAISS for accurate context retrieval.
