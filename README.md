@@ -1,20 +1,42 @@
-🧠 AIResearchEase – Your AI Companion for Smarter Research 📄
-AIResearchEase is a secure and intuitive web application that transforms how you interact with academic papers. Built for researchers and students, it enables real-time Q&A and summarization using cutting-edge AI — no manual skimming needed.
+# 🧠 AIResearchEase – Simplifying Research with AI 🤖📄
 
-🔐 Key Features:
-LLM-Powered Chatbot – Ask questions and get instant, context-aware answers from uploaded research papers.
+**AIResearchEase** is a secure, intelligent AI-powered web application designed to simplify academic research workflows. Built using Retrieval-Augmented Generation (RAG), FAISS-based semantic search, and local Large Language Models (LLMs), the app lets users upload research papers and ask context-aware questions — receiving instant, accurate answers.
 
-PDF Parsing & Semantic Search – Automatically extracts and understands paper content using FAISS and embeddings.
+---
 
-Real-Time Q&A – Built-in RAG pipeline provides precise, reference-based answers.
+## 🔍 Key Features
 
-Local & Secure – Runs fully on your system with Ollama and Docker for safe, private usage.
+- 🧠 **AI-Powered Chatbot**  
+  Ask questions about any uploaded research paper and get accurate, citation-aware responses using LLMs.
 
-Clean UI – Simple Streamlit-based interface for easy access and interaction.
+- 📄 **PDF Upload & Parsing**  
+  Seamlessly extracts and chunks research paper content using `pdfplumber`.
 
-🛠️ Tech Stack:
-Frontend: Streamlit
-Backend: Python
-LLM Inference: Ollama API
-Search & Embedding: FAISS, Sentence Transformers
-PDF Processing: pdfplumber
+- 📚 **Semantic Search with FAISS**  
+  Embeds document sections using Sentence Transformers and retrieves the most relevant context.
+
+- 💬 **Natural Language Q&A**  
+  Interact using simple questions and get contextually grounded answers from the LLM.
+
+- 🔐 **Secure & Local Execution**  
+  Runs entirely on your machine using Ollama and Docker — no data leaves your environment.
+
+---
+
+## 🛠️ Tech Stack
+
+- **Frontend**: Streamlit  
+- **Backend**: Python  
+- **LLM Engine**: Ollama (e.g., Mistral, LLaMA2)  
+- **Vector Search**: FAISS  
+- **Embeddings**: Sentence Transformers  
+- **PDF Parsing**: pdfplumber  
+- **Containerization**: Docker (optional)
+
+---
+
+## 🔐 Security Highlights
+
+- **Local-Only Inference** with Ollama (no external API calls)  
+- **AES-level Secure File Handling**  
+- **Ephemeral In-Memory Processing** (no long-term data storage)
