@@ -1,0 +1,16 @@
+Question,Answer
+Who are the authors of this paper?,"Ayman Asad Khan, Md Toufique Hasan, Kai Kristian Kemell, Jussi Rasku, and Pekka Abrahamsson."
+What is the main purpose of the paper?,To present a step-by-step guide for building RAG systems using PDFs as the primary knowledge base.
+What does RAG stand for?,Retrieval Augmented Generation.
+Which two LLM approaches are compared in the paper?,OpenAI’s Assistant API (GPT) and open-source Llama (via OLlama).
+Why is RAG preferred over base LLMs in dynamic fields?,Because RAG retrieves up-to-date and accurate information instead of relying on static training data.
+What are the main components of a RAG system?,"Data collection, preprocessing, embedding, retrieval, augmentation, generation, and response output."
+What is the role of PDFs in this study?,PDFs serve as the external data source from which domain-specific knowledge is extracted.
+What Python libraries are used for PDF processing?,"PyMuPDF (fitz), pdfplumber, pdfminer.six."
+What embedding models are mentioned in the study?,"BERT, Sentence Transformers, and HuggingFace embeddings."
+What tool is used for vector storage in the OpenAI setup?,OpenAI Vector Store.
+What tool is used for vector search in the Llama setup?,FAISS (Facebook AI Similarity Search).
+What are some common challenges when extracting text from PDFs?,"Complex layouts, scanned pages, encoding issues, and OCR errors."
+Which tool is used to run Llama models locally?,OLlama.
+What workshop feedback did participants find most valuable?,Practical coding exercises and assistant-based hands-on experience.
+What is one best practice when chunking PDF content?,Use semantic chunking rather than fixed-size or arbitrary splits.

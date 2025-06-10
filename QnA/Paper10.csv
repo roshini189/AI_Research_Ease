@@ -1,0 +1,16 @@
+Question,Answer
+Who are the main authors of the paper?,"Matthijs Douze, Jeff Johnson, Herve Jégou, and others from Meta, Zilliz, and DeepSeek."
+What is FAISS used for?,FAISS is a library for fast vector similarity search and clustering.
+What type of search does FAISS support?,Approximate Nearest Neighbor Search (ANNS).
+Is FAISS a database?,"No, it is a library that provides vector search functions, not a full database system."
+Does FAISS extract embeddings?,"No, FAISS only indexes and searches pre-computed embeddings."
+Which languages does FAISS support?,FAISS is written in C++ with a Python wrapper.
+What are some common applications of FAISS?,"Large-scale image search, recommendation systems, text retrieval, and content moderation."
+What are the main distance metrics supported?,"L2 (Euclidean), cosine similarity, and inner product."
+What is the default search method in FAISS for small datasets?,Brute force search using IndexFlat.
+Which method is recommended for large datasets?,"Non-exhaustive indexing like IVF or graph-based methods (e.g., HNSW)."
+What is IVF in FAISS?,Inverted File System – it clusters database vectors to reduce search space.
+What is HNSW used for?,"Hierarchical graph-based search, especially good for fast and accurate search in medium-sized datasets."
+What is product quantization (PQ)?,A method to compress vectors into smaller codes to save memory and speed up search.
+Does FAISS support GPU?,"Yes, FAISS supports GPU acceleration for both training and search."
+Can FAISS search batches of queries?,"Yes, FAISS supports efficient batched query processing."

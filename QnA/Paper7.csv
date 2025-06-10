@@ -1,0 +1,16 @@
+Question,Answer
+Who are the authors of the paper?,"Zonghan Wu, Shirui Pan, Fengwen Chen, Guodong Long, Chengqi Zhang, and Philip S. Yu."
+What is the main focus of the paper?,A comprehensive survey of Graph Neural Networks (GNNs).
+Why are GNNs important?,They handle graph-structured data that traditional deep learning models struggle with.
+What are the four main categories of GNNs described?,"RecGNNs, ConvGNNs, Graph Autoencoders (GAEs), and Spatial-Temporal GNNs (STGNNs)."
+What is a graph in this context?,"A set of nodes and edges, possibly with features on both."
+What is a RecGNN?,A Recurrent Graph Neural Network that updates node states until convergence.
+What is a ConvGNN?,A Graph Neural Network that generalizes convolution operations to graph structures.
+What is a Graph Autoencoder (GAE)?,A model that encodes graphs into latent vectors and reconstructs the graph from them.
+What does a Spatial-Temporal GNN model?,"Patterns in graph data that change over time, like traffic or human motion."
+What is the role of pooling in GNNs?,To reduce graph size and extract meaningful graph-level features.
+What datasets are often used to evaluate GNNs?,"Citation networks, social networks, protein-protein interaction networks, etc."
+What are spectral-based ConvGNNs based on?,Graph signal processing and the graph Laplacian.
+What are spatial-based ConvGNNs based on?,Neighborhood aggregation or message passing.
+What is GraphSAGE known for?,Sampling fixed-size neighborhoods for scalability.
+What is GAT (Graph Attention Network)?,A GNN that uses attention weights to assign importance to neighbors.

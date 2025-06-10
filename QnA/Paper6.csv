@@ -1,0 +1,16 @@
+Question,Answer
+Who are the authors of the BERT paper?,"Jacob Devlin, Ming-Wei Chang, Kenton Lee, and Kristina Toutanova."
+What does BERT stand for?,Bidirectional Encoder Representations from Transformers.
+What are the two main steps in BERT training?,Pre-training and fine-tuning.
+What type of architecture does BERT use?,A multi-layer bidirectional Transformer encoder.
+What are the two tasks used in BERT pre-training?,Masked Language Modeling (MLM) and Next Sentence Prediction (NSP).
+What token is used for classification tasks in BERT?,The special token [CLS].
+What is the input representation in BERT made of?,"The sum of token, segment, and position embeddings."
+What percentage of tokens are masked during MLM?,15% of the tokens in each input sequence.
+What is the goal of Next Sentence Prediction?,To predict if sentence B follows sentence A in the original text.
+What corpora were used to pre-train BERT?,"BooksCorpus (800M words) and English Wikipedia (2,500M words)."
+How many parameters does BERTBASE have?,110 million.
+How many layers does BERTLARGE have?,24 Transformer layers.
+Which benchmark did BERT improve the most?,"GLUE, with a new state-of-the-art score of 80.5."
+What type of tasks can BERT be fine-tuned for?,"Classification, question answering, named entity recognition, etc."
+What is one advantage of BERT over GPT?,"BERT uses bidirectional context, while GPT uses left-to-right."

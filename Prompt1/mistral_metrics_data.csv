@@ -1,0 +1,237 @@
+filename,pdf_size_kb,num_pages,original_word_count,summary_word_count_mistral,model_used,summarization_time_sec,summary_text,rouge1_fmeasure,rouge2_fmeasure,rougeL_fmeasure,bertscore_precision,bertscore_recall,bertscore_f1,bertscore_avg
+paper1.pdf,803.05,23,23064,271,mistral,114.8," The provided references are a list of articles, papers, or studies that focus on various aspects related to autism spectrum disorder (ASD), neuropsychology, and neurophysiology. They explore topics such as:
+
+   1. Event-related potentials (ERPs) in ASD individuals compared to controls (Webb et al., 2010, Webb et al., 2012)
+   2. Face processing differences between ASD and control groups (Webb et al., 2010, Webb et al., 2012)
+   3. Inhibitory control differences in adults with ADHD and their peers (Woltering et al., 2013)
+   4. Impairment of optic flow perception in ASD individuals (Yamasaki et al., 2011)
+   5. Differences in the error-related negativity component between control and ASD groups (Wessel, 2012)
+   6. PRISMA guidelines for systematic reviews with a focus on health equity (Welch et al., 2012)
+   7. Molecular imaging studies in ASD using PET and SPECT techniques (Zürcher et al., 2015)
+
+Additionally, the references include other papers that examine the following areas:
+
+   - ERP responses differentiating inverted but not upright face processing in adults with ASD (Webb, Jones, Murias, Greenson, Richards, Aylward, & Dawson, 2012)
+   - Electrophysiological evidence for selective impairment of optic flow perception in autism spectrum disorder (Yamasaki et al., 2011)
+   - Neuropsychological differences in inhibitory control between adults with ADHD and their peers (Woltering, Liu, Rokeach, & Tannock, 2013)
+   - The first decade of evidence evaluating the error-related negativity component (Wessel, 2012)
+   - Reporting guidelines for systematic reviews with a focus on health equity (Welch et al., 2012)
+   - A systematic review of molecular imaging in autism spectrum disorder (Zürcher, Bhanot, McDougle, & Hooker, 2015)
+   - Neurophysiological aspects related to ASD, including event-related potentials and inhibitory control (Lau-Zhu et al., 2019)",0.20981132075471698,0.055933484504913075,0.11622641509433963,0.8017014265060425,0.8138816356658936,0.807745635509491,0.8077762325604757
+paper2.pdf,518.05,9,4780,602,mistral,158.04," Title: Generative Adversarial Networks
+
+   Abstract: This paper proposes a new framework for estimating generative models via an adversarial process. The proposed method, called Generative Adversarial Networks (GANs), consists of two parts: a generator network and a discriminator network. The generator network creates samples that are intended to resemble the training data distribution, while the discriminator network takes real or generated examples as input and outputs a probability that the input is real. During training, both networks are trained simultaneously via a minimax game between them. GANs can be used for generative modeling tasks such as image synthesis and style transfer, and they offer several advantages over traditional approaches such as variational autoencoders (VAEs).
+
+   Introduction: The problem of generative modeling is the task of learning the underlying distribution of a dataset. Generative models are useful for many applications, including data generation, outlier detection, and semantic segmentation. In this paper, we propose a new method for estimating generative models called Generative Adversarial Networks (GANs). GANs consist of two parts: a generator network and a discriminator network. The generator network is trained to produce samples that resemble the training data distribution, while the discriminator network is trained to distinguish between real and generated examples. During training, both networks are updated via a minimax game between them.
+
+   Related Work: Generative models have been studied extensively in machine learning. Traditional approaches include density estimation methods such as Gaussian mixture models and neural networks, as well as generative probabilistic graphical models such as Markov random fields and hidden Markov models. In recent years, deep learning has led to the development of new generative models such as convolutional autoencoders, recurrent neural networks with backpropagation through time, and variational autoencoders (VAEs). However, VAEs suffer from several drawbacks such as sample quality, lack of control over the generated samples, and difficulty in training.
+
+   Method: In this section, we describe the architecture and training procedure for GANs. We begin by describing the generator network, which takes a random noise vector as input and produces a sample. The discriminator network takes a real or generated example as input and outputs a probability that the input is real. During training, both networks are trained simultaneously via a minimax game between them. Specifically, the generator network is updated to minimize the probability of being classified as fake by the discriminator network, while the discriminator network is updated to maximize its ability to distinguish between real and generated examples.
+
+   Results: We demonstrate the effectiveness of GANs on several tasks such as image synthesis, style transfer, and semantic segmentation. In these experiments, we show that GANs are able to generate high-quality samples that closely resemble the training data distribution. We also compare GANs to other generative models such as VAEs and find that GANs offer several advantages such as better sample quality, more controllable generation, and easier training.
+
+   Conclusion: In this paper, we proposed a new method for estimating generative models called Generative Adversarial Networks (GANs). GANs consist of two parts: a generator network and a discriminator network, which are trained via a minimax game between them. We demonstrated the effectiveness of GANs on several tasks such as image synthesis, style transfer, and semantic segmentation. In future work, we plan to investigate the use of GANs for other applications such as object detection and speech recognition.
+
+   Acknowledgments: This work was supported by CIFAR, Canada Research Chairs, Compute Canada, and Calcul Qu\'ebec. We would also like to thank Les Trois Brasseurs for providing the inspiration for this research.
+
+   References: [1] - [31]
+
+   Keywords: Generative Adversarial Networks, generative modeling, deep learning, image synthesis, style transfer, semantic segmentation, minimax game.",0.5292841648590022,0.16509775524981898,0.22559652928416485,0.851716160774231,0.8385926485061646,0.8451035022735596,0.8451374371846517
+paper3.pdf,800.18,12,9927,198,mistral,72.25," The text you provided is about the performance of a deep learning model, specifically a convolutional neural network (CNN), on the ImageNet Large Scale Visual Recognition Challenge (ILSVRC) dataset. Here are some key points:
+
+1. The model was trained using a ResNet-101 architecture and achieved excellent results in both image classification and object localization tasks.
+
+2. In the image classification task, the model significantly reduced the center-crop error from 33.1% (using ground truth classes) to 13.3%. With dense (fully convolutional) and multi-scale testing, the error was further reduced to 11.7%.
+
+3. The top-5 localization error was also reduced from 26.9% to 14.4%, but this result was only based on the proposal network (RPN) in Faster R-CNN. Using an RoI-centric implementation of R-CNN instead of Fast R-CNN further improved the results, reducing the top-5 localization error to 10.6%.
+
+4. The model achieved a top-5 localization error of 9.0% on the test set using an ensemble of networks for both classification and localization. This result significantly outperformed the ILSVRC 2014 results, showing a 64% relative reduction in error.
+
+In summary, this deep learning model showed impressive performance on the ImageNet dataset, demonstrating the potential of CNNs for image recognition tasks.",0.25527638190954777,0.05236656596173212,0.12462311557788945,0.8426151871681213,0.8163864612579346,0.8292935490608215,0.8294317324956259
+paper4.pdf,534.24,24,10105,92,mistral,41.94," The provided text is an abstract for a research paper titled ""Quantum Machine Learning."" This paper discusses the potential of quantum computers in performing machine learning tasks more efficiently than classical computers. It highlights that while the hardware and software challenges are still significant, progress is being made towards solutions.
+
+Keywords and phrases: quantum computing, machine learning, data patterns, quantum systems, counter-intuitive patterns, classical systems, concrete quantum software, hardware challenges, paths towards solutions, geocentric model of 1.
+
+If you need more information or clarification about any specific part, feel free to ask!",0.15133876600698484,0.051341890315052506,0.09313154831199069,0.8523474335670471,0.8139240741729736,0.8326927423477173,0.8329880833625793
+paper5.pdf,2163.32,15,6615,246,mistral,73.79," This text appears to be discussing a research paper about the use of attention mechanisms in deep learning models for natural language processing (NLP). The attention mechanism is a technique used in these models to allow them to focus on specific parts of an input sequence when producing an output, rather than considering all of the input at once.
+
+   In this case, the authors are using attention mechanisms in a model for neural machine translation (NMT), where the goal is to translate one language into another. The figures provided show visualizations of the attention weights learned by the model during training, demonstrating how it focuses on certain parts of the input when generating the output.
+
+   For example, Figure 3 shows the attention mechanism following a long-distance dependency in the encoder self-attention in layer 5 of 6. The attentions shown are for the word ‘making’, and many heads attend to distant dependencies of this word to complete the phrase ‘making...more difficult’.
+
+   Figure 4 shows two attention heads, apparently involved in anaphora resolution. Top: Full attentions for head 5. Bottom: Isolated attentions from just the word ‘its’ for attention heads 5 and 6. Note that the attentions are very sharp for this word.
+
+   Figure 5 demonstrates that many of the attention heads exhibit behavior that seems related to the structure of the sentence, with the heads learning to perform different tasks. The authors provide two examples from different heads in the encoder self-attention at layer 5 of 6.",0.31746031746031744,0.09167446211412535,0.15126050420168066,0.8243587613105774,0.7996323108673096,0.8118073344230652,0.8119328022003174
+paper6.pdf,757.0,16,10401,270,mistral,93.24," The text you provided is discussing a study on the BERT model, a popular language model developed by Google. The authors are exploring the effects of different aspects of BERT's pre-training and fine-tuning process.
+
+1. Pre-training Steps: The experiment investigates how the number of training steps during pre-training affects the performance of BERT on the MNLI task during fine-tuning. The results show that BERT requires a significant amount of pre-training (around 1 million steps) to achieve high accuracy in fine-tuning tasks like MNLI.
+2. Masking Procedures: Another experiment examines different masking strategies used during pre-training with the masked language model (MLM) objective. The results show that BERT is surprisingly robust to different masking strategies, but using only the [MASK] strategy was problematic when applying the feature-based approach to Named Entity Recognition (NER). Interestingly, using a random token replacement strategy (RND) performed much worse than the proposed strategy.
+3. Ablation for Different Masking Procedures: This experiment compares the performance of BERT with different masking strategies during pre-training. The results show that replacing the target token with [MASK] (80% probability), keeping it as is (10% probability), and replacing it with another random token (10%) yield similar results for fine-tuning tasks like MNLI and NER. However, using only the [MASK] strategy was problematic when applying the feature-based approach to NER.
+
+In summary, these experiments suggest that BERT requires a large amount of pre-training to achieve high accuracy in fine-tuning tasks, and the masking strategies used during pre-training play an important role in achieving good performance during fine-tuning. However, the results also show that BERT is surprisingly robust to different masking strategies during pre-training.",0.30323115161557584,0.06141078838174274,0.13753106876553436,0.8384757041931152,0.8138723969459534,0.8259908556938171,0.8261129856109619
+paper7.pdf,1642.34,22,24139,79,mistral,41.74," This text appears to be an excerpt from a research paper or survey discussing the use of Graph Neural Networks (GNNs) for various types of non-Euclidean data. It mentions several datasets used for testing GNNs, such as social networks, protein interaction networks, and traffic data, along with their respective characteristics. Additionally, it provides links to open-source implementations of GNN models. Lastly, it gives a brief abstract on the importance of GNNs in machine learning tasks that involve non-Euclidean data.",0.13636363636363638,0.043478260869565216,0.07644628099173555,0.8850276470184326,0.8146539926528931,0.8483839631080627,0.8493552009264628
+paper8.pdf,2538.92,15,14574,320,mistral,98.19," Title: A Survey on Transfer Learning
+
+   Authors: [Not specified] (Published by the IEEE Computer Society)
+
+   Abstract: Many machine learning and data mining algorithms assume that the training and future data are in the same feature space and have the same distribution. However, this assumption may not always hold true in real-world applications, where we might have a classification task in one domain but only sufficient training data in another domain with potentially different feature spaces or distributions. In such scenarios, transfer learning can significantly enhance the performance of learning by avoiding costly data labeling efforts. This survey provides an overview and categorization of the current advancements in transfer learning for classification, regression, and clustering problems.
+
+   Keywords: Transfer Learning, Knowledge Transfer, Classification, Regression, Clustering
+
+   Introduction:
+       - Brief explanation of transfer learning and its importance in real-world applications
+       - Challenges in applying machine learning algorithms when the training and future data are not in the same feature space or follow different distributions
+
+   Main Body:
+       1. Classification Problems:
+           - Overview of transfer learning approaches for classification problems
+           - Discussion on domain adaptation, multi-task learning, and one-shot learning
+           - Case studies and examples demonstrating the effectiveness of transfer learning in classification tasks
+
+       2. Regression Problems:
+           - Explanation of how transfer learning can be applied to regression problems
+           - Presentation of regression transfer learning methods such as regression domain adaptation, multi-task regression, and deep regression networks
+           - Examples showcasing the practical applications of transfer learning in regression tasks
+
+       3. Clustering Problems:
+           - Introduction to clustering problems and challenges associated with them
+           - Discussion on clustering transfer learning approaches, including domain adaptation for clustering and multi-view clustering
+           - Case studies demonstrating the effectiveness of transfer learning in clustering tasks
+
+   Conclusion:
+       - Summary of the key findings and advancements in transfer learning
+       - Future research directions in transfer learning for various types of problems
+
+   References:
+       List of academic papers, books, and other resources related to transfer learning.",0.377326565143824,0.15593220338983052,0.194585448392555,0.8082648515701294,0.8379969596862793,0.8228623867034912,0.8230413993199667
+paper9.pdf,842.54,16,7409,71,mistral,39.39," It appears you've shared a list of authors and their affiliations from a scientific publication related to the LIGO Scientific Collaboration. This collaboration aims to detect gravitational waves using advanced laser interferometry. The list includes researchers and institutions that contributed to this work.
+
+   If you have any specific questions about this data or if there's something else you'd like to discuss regarding physics, astronomy, or related topics, feel free to ask!",0.06635071090047394,0.015194681861348529,0.04170616113744076,0.8194684982299805,0.749724268913269,0.7830464243888855,0.7840797305107117
+paper10.pdf,1527.71,24,18132,280,mistral,96.63," This text provides an overview of the main classes, methods, and objects used in the Faiss library for performing vector embeddings and similarity search on floating-point vectors. Here's a brief summary:
+
+1. **Faiss Index API**: The main index classes are Inverted File indexes (IVF), HNSW graph-based indexes, NSG, and RFlat. Each index has methods like train(), add(), search(), range search(), remove ids(), and reconstruct batch(). These indexes can be based on uncompressed vectors or use compression techniques like PQ (Product Quantizer) or scalar quantizer.
+
+2. **Quantizer objects**: These are used to compress the vector representations. The hierarchy of quantizers includes Vector quantizer, Additive quantizer, Product-additive quantizer, Product quantizer, Scalar quantizer, and Binarization. Each quantizer can represent the reproduction values of the quantifiers below it but is slower to train and perform assignment with.
+
+3. **Inverted File Indexes**: These are built on an inverted file (InvertedFileIndex) using vectors compressed with PQ or a scalar quantizer. The IVF index coarse-quantizes the input vectors for efficient search.
+
+4. **Graph Indexes**: These include HNSW and NSG graph-based indexes, which provide faster scans. HNSW has a fast-scan version (HNSW L) and supports scalar quantizer storage (HSNW). NSG provides SIMD-based search.
+
+5. **Fast Scan**: Fast scan is a feature available in some indexes like HNSW L, NSG L, and RFlat, which allows for faster search.
+
+6. **Coarse Quantizers**: These are used for coarse quantization of the input vectors (e.g., IVF Coarse quantizer). They transform the vectors using techniques like PCA or OPQ.
+
+7. **Index wrappers**: These include various index wrappers like IDMap, IDMap2, RFlat, LSH, and ZnLattice, which provide additional functionalities like remapping sequential ids to arbitrary ids, splitting the database vectors over several indexes, etc.",0.3093465674110835,0.05965202982601492,0.13564929693961952,0.8268272280693054,0.8204030394554138,0.823602557182312,0.8236109415690104
+paper11.pdf,749.61,37,10509,181,mistral,61.27,"1. The text appears to be discussing Retrieval Augmented Generation (RAG) systems, a method that improves large language models by grounding their outputs in real-time, relevant information. The article provides steps for building RAG systems using PDF documents as data source and offers examples of proprietary APIs like OpenAI’s GPT and open-source models such as Llama 3.1.
+
+2. The article highlights the challenges faced when dealing with complex PDFs and extracting useful text. It also discusses various options available to developers for optimizing RAG systems, such as integration with knowledge graphs and adaptive learning techniques that allow the systems to continously fine-tune themselves based on new data and user feedback.
+
+3. The article suggests that RAG systems will play a key role in industries like healthcare, legal research, and technical documentation as technology advances in adaptive learning, multi-modal capabilities, and retrieval methods.
+
+4. The references provided at the end of the text provide sources for further reading on RAG systems, including academic papers and blogs. One notable reference is a cost estimation for an RAG application using GPT-4o from Tampere University.",0.2862985685071575,0.11270491803278687,0.15132924335378325,0.8748235702514648,0.833038330078125,0.8534197807312012,0.853760560353597
+paper12.pdf,1185.13,14,9389,704,mistral,325.81," This list appears to be a collection of references related to approximate nearest neighbor search, data mining, machine learning, and image recognition. Here's a brief summary of each reference:
+
+   1. [Announcing ScaNN](https://research.google/blog/announcing-scann-efficient-vector-similarity-search/): Google's blog post about ScaNN (Scalable Nearest Neighbor search), an efficient method for performing vector similarity search.
+   2. [Optimization of Indexing Based on k-Nearest Neighbor Graph for Proximity Search in High-dimensional Data](http://arxiv.org/abs/1810.07355): A research paper discussing the optimization of indexing for proximity search in high-dimensional data using a k-nearest neighbor graph.
+   3. [Efficient and Robust Approximate Nearest Neighbor Search Using Hierarchical Navigable Small World Graphs](https://ieeexplore.ieee.org/document/8916485): A research paper discussing an efficient and robust method for approximate nearest neighbor search using hierarchical navigable small world graphs.
+   4. [High-dimensional signature compression for large-scale image classification](http://www.cv-foundation.org/openaccess/content_cvpr_2011.pdf): A research paper discussing high-dimensional signature compression for large-scale image classification.
+   5. [The advantages of the Matthews correlation coefficient (MCC) over F1 score and accuracy in binary classification evaluation](https://bmcgenomics.biomedcentral.com/articles/10.1186/S12864-019-6413-7#Sec6): A study discussing the advantages of the Matthews correlation coefficient (MCC) over F1 score and accuracy in binary classification evaluation.
+   6. [A Review of the F-Measure: Its History, Properties, Criticism, and Alternatives](https://dl.acm.org/doi/abs/10.1145/3606367/ASSET/91B75E27-EDA5-45BA-AFA6-D20864C7414A): A review of the F-measure, its history, properties, criticism, and alternatives.
+   7. [Evaluation: from precision, recall: and F-measure to ROC, informedness, markedness and correlation](https://arxiv.org/abs/2010.16061): A study discussing evaluation metrics in machine learning, including precision, recall, F-measure, ROC, informedness, markedness, and correlation.
+   8. [Fashion Product Images Dataset](https://www.kaggle.com/datasets/paramaggarwal/fashion-product-images-dataset): A fashion product images dataset available on Kaggle for machine learning tasks.
+   9. [Adafactor: Adaptive Learning Rates with Sublinear Memory Cost](https://proceedings.mlr.press/v80/shazeer18a.html): A paper introducing Adafactor, an adaptive learning rate optimization algorithm that requires sublinear memory cost.
+   10. [Advanced data mining techniques](http://link.springer.com/book/10.1007%2F978-3-540-76917-0): A book on advanced data mining techniques, including clustering, association rule mining, classification, and visualization.
+   11. [Matthews correlation coefficient (MCC) for evaluation of binary classifiers](https://en.wikipedia.org/wiki/Matthews_correlation_coefficient): A Wikipedia page discussing the Matthews correlation coefficient, a performance metric for binary classification problems.
+   12. [The F1 score: history and applications](http://www.cs.vu.nl/~sheila/Teaching/F1-score.pdf): A paper discussing the history and applications of the F1 score, a performance metric used in information retrieval and machine learning.
+   13. [Data mining techniques for knowledge discovery in databases](https://link.springer.com/book/10.1007/978-3-642-17559-9): A book on data mining techniques for knowledge discovery in databases, including clustering, association rule mining, classification, and visualization.
+   14. [Precision and recall: performance measures in information retrieval](https://en.wikipedia.org/wiki/Precision_and_recall): A Wikipedia page discussing precision and recall, two performance metrics used in information retrieval.
+   15. [ROC analysis](https://en.wikipedia.org/wiki/Receiver_operating_characteristic): A Wikipedia page discussing ROC (Receiver Operating Characteristic) analysis, a performance evaluation method used in various fields, including signal processing and machine learning.
+   16. [Evaluating classifiers: a study on three popular metrics](https://www.researchgate.net/publication/307254489_Evaluating_Classifiers_A_Study_on_Three_Popular_Metrics): A research paper evaluating the performance of popular machine learning classifiers using precision, recall, and F1 score as evaluation metrics.
+   17. [Data Mining: Concepts and Techniques](https://link.springer.com/book/10.1007%2F978-3-642-10565-1): A book on data mining concepts and techniques, including clustering, association rule mining, classification, and visualization.
+   18. [Classification: methods for modeling kind](https://link.springer.com/book/10.1007%2F978-3-642-25493-0): A book on classification methods for modeling different types of data, including text, images, and time series data.
+   19. [Information Retrieval: Algorithms and Theory](https://link.springer.com/book/10.1007%2F978-3-642-02654-0): A book on information retrieval algorithms and theory, including search engines, text retrieval, and recommendation systems.
+   20. [Applications of Data Mining](https://link.springer.com/book/10.1007%2F978-3-642-05345-4): A book on applications of data mining in various fields, including business, medicine, and engineering.
+   21. [Neural Networks: Tricks of the Trade](https://link.springer.com/book/10.1007%2F978-3-642-27702-5): A book on neural networks, including feedforward networks, recurrent networks, and deep learning architectures.
+   22. [Support Vector Machines: Theory, Algorithms, and Applications](https://link.springer.com/book/10.1007%2F9813-54069-2): A book on support vector machines (SVMs), a popular machine learning algorithm for classification and regression tasks.
+   23. [An Introduction to Support Vector Machines](https://www.mccormick.northwestern.edu/~tczar/teaching/svm_notes.pdf): A set of notes on support vector machines (SVMs) by a professor at Northwestern University.
+   24. [Statistical Learning: The Science of Data Mining](https://www.oreilly.com/library/view/statistical-learning-the/9781449359766/): A book on statistical learning and its application to data mining, including regression, classification, clustering, and anomaly detection.
+   25. [Machine Learning: The Art and Science of Algorithms That Make Sense of Data](https://www.oreilly.com/library/view/machine-learning-the-art/9781491950337/): A book on machine learning algorithms, including supervised learning, unsupervised learning, reinforcement learning, and deep learning.
+   26. [Pattern Recognition and Machine Learning](https://www.springer.com/gp/book/978-3-540-31240-7): A book on pattern recognition and machine learning, including statistical methods, neural networks, and support vector machines (SVMs).
+   27. [The Elements of Statistical Learning](https://statweb.stanford.edu/elemstat/elementsmachinelearning/): A popular open-source book on statistical learning methods, including regression, classification, clustering, and dimension reduction.",0.32040302267002513,0.06051437216338881,0.12795969773299748,0.785096287727356,0.8066158294677734,0.7957106232643127,0.7958075801531473
+paper13.pdf,523.25,11,7230,178,mistral,70.34," Title: Comprehensive Full-chain Evaluation (CoFE-RAG) Framework for Retrieval-Augmented Generation Systems
+
+   Abstract: Retrieval-Augmented Generation (RAG) aims to enhance large language models (LLMs) by providing more accurate and reliable answers through the use of retrieved context from external knowledge sources. While there have been advancements in this area, evaluation remains a critical research topic due to several challenges. These include:
+
+   1. Limited data diversity
+   2. Obscure problem location
+   3. Unstable retrieval evaluation
+
+   To address these issues, we propose the Comprehensive Full-chain Evaluation (CoFE-RAG) framework for thorough evaluation across the entire RAG pipeline, including chunking, retrieval, reranking, and generation. To effectively evaluate the first three phases, we introduce multi-granularity keywords, such as coarse-grained and fine-grained keywords, to assess the relevance of the retrieved context rather than relying on golden chunks annotations. Furthermore, we release a holistic benchmark dataset designed for diverse data scenarios covering various document formats and query types. The utility of the CoFE-RAG framework is demonstrated by conducting experiments to evaluate each stage of RAG systems.
+
+   Keywords: Retrieval-Augmented Generation, Evaluation, Large Language Models, Knowledge Graphs, Multi-granularity Keywords, Benchmark Datasets",0.2541436464088398,0.12806324110671938,0.1483820047355959,0.8801599740982056,0.842411994934082,0.8608723878860474,0.8611481189727783
+paper14.pdf,1623.6,21,16024,289,mistral,110.12," Title: A Comprehensive Review of Retrieval-Augmented Generation (RAG) in Large Language Models
+
+   Abstract: Large Language Models (LLMs) demonstrate remarkable capabilities but face challenges such as hallucination, outdated knowledge, and non-transparent, untraceable reasoning processes. Retrieval-Augmented Generation (RAG) has emerged as a promising solution by integrating knowledge from external databases. This enhancement improves the accuracy and credibility of generation, particularly for knowledge-intensive tasks, and allows for continuous knowledge updates and integration of domain-specific information. RAG harmoniously combines the innate knowledge of LLMs with the vast, dynamic repositories of external databases. This comprehensive review paper provides a detailed analysis of the evolution of RAG paradigms, including the Naive RAG, Advanced RAG, and Modular RAG. It systematically examines the tripartite structure of RAG frameworks, which encompasses retrieval, generation, and augmentation techniques.
+
+   Keywords: Retrieval-Augmented Generation, Large Language Models, Knowledge-Intensive Tasks, External Databases, Continuous Knowledge Updates, Domain-Specific Information
+
+   Introduction:
+      - Brief overview of the challenges faced by LLMs
+      - Explanation of RAG and its potential benefits
+      - Importance of RAG in addressing the challenges of LLMs
+
+   Progression of RAG Paradigms:
+      - Naive RAG
+      - Advanced RAG
+      - Modular RAG
+
+   Tripartite Structure of RAG Frameworks:
+      - Retrieval Techniques
+         - Information Retrieval
+         - Reinforcement Learning to Rank
+      - Generation Techniques
+         - Text-to-Text Generation
+         - Text-to-Image/Multimodal Generation
+      - Augmentation Techniques
+         - Fusion Strategies
+         - Extraction Strategies
+
+   Applications of RAG:
+      - Knowledge-Intensive Tasks
+      - Domain-Specific Information Integration
+      - Continuous Knowledge Updates
+
+   Future Directions and Challenges:
+      - Improving the Quality and Relevance of Retrieved Data
+      - Balancing Generality and Specialization in RAG Systems
+      - Ensuring Transparency and Explainability in RAG Processes
+
+   Conclusion:
+      - Summary of the progress and potential of RAG in LLMs
+      - Identification of future research directions
+      - Implications for the development of more capable and trustworthy LLMs.",0.31782945736434104,0.14285714285714285,0.1736434108527132,0.8088979721069336,0.8403297662734985,0.824314296245575,0.8245140115420023
+paper15.pdf,3566.4,12,7809,382,mistral,124.22," Title: AlphaFold2 Predictions for the CASP14 Benchmark Set and Analysis of Its Performance
+
+   Abstract: We report the performance of AlphaFold2, a computational method for protein structure prediction, on the CASP14 benchmark set. The method was trained using structures from the PDB downloaded on 28/08/2019 and 14/05/2020, with input data freely available from public sources. We show experimental structures from the PDB as a validation of our results.
+
+   Introduction: AlphaFold2 is an advanced protein structure prediction method developed by DeepMind Technologies. It has shown remarkable accuracy in predicting the 3D structures of proteins, particularly for large and complex structures. This study evaluates its performance on the CASP14 benchmark set.
+
+   Methods: The recent PDB set was filtered to exclude chains with too few resolved residues, longer than 1400 residues, solved by NMR or with unknown/ambiguous residues. The set was also redundancy reduced (by taking representatives from a sequence clustering) and for some figures a sequence similarity-based filter was applied to remove entries too similar to the training set. AlphaFold2 predictions were made on the full CASP14 benchmark set, and all PDB chains not in the training set (subject to the exclusions noted above).
+
+   Results: We show experimental structures from the PDB with accessions 6Y4F77, 6YJ178, 6VR479, 6SK080, 6FES81, 6W6W82, 6T1Z83, and 7JTL84 to validate our results. The performance of AlphaFold2 on the CASP14 benchmark set is reported in terms of Root Mean Square Deviation (RMSD) and Global Distance Test (GDT) scores.
+
+   Discussion: The results demonstrate the effectiveness of AlphaFold2 for protein structure prediction, particularly for large and complex structures. The method's performance on the CASP14 benchmark set is compared to other methods in the field. Limitations and potential improvements are discussed.
+
+   Conclusion: This study provides valuable insights into the capabilities and limitations of AlphaFold2 for protein structure prediction, contributing to the advancement of this crucial area of research.
+
+   Data Availability Statement: All input data are freely available from public sources (see Methods for details). Structures from the PDB were used for training and as templates.
+
+   References: [Cite relevant literature]
+
+   Keywords: Protein structure prediction, AlphaFold2, CASP14, benchmark set, Root Mean Square Deviation (RMSD), Global Distance Test (GDT)
+
+   Conflicts of Interest: The authors declare no conflicts of interest.
+
+   Funding: This work was supported by [funding agency].
+
+   Acknowledgments: We thank [acknowledgements] for their contributions to this study.",0.374893977947413,0.07306711979609176,0.1475826972010178,0.8188096880912781,0.8300041556358337,0.8243688941001892,0.8243942459424337

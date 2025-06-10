@@ -1,0 +1,16 @@
+Question,Answer
+Who wrote the paper?,"Ashish Vaswani, Noam Shazeer, Niki Parmar, Jakob Uszkoreit, Llion Jones, Aidan N. Gomez, Łukasz Kaiser, and Illia Polosukhin."
+What model does the paper introduce?,The Transformer model.
+What is the key idea behind the Transformer?,It replaces recurrence with self-attention mechanisms.
+Why was the Transformer proposed?,To improve parallelization and reduce training time compared to RNNs and CNNs.
+What tasks was the model tested on?,English-to-German and English-to-French translation (WMT 2014).
+What BLEU score did the Transformer (big) achieve on English-to-German?,28.4 BLEU.
+How many GPUs were used to train the base Transformer model?,8 NVIDIA P100 GPUs.
+What is self-attention?,A mechanism to relate different positions of a sequence to compute its representation.
+What is multi-head attention?,Multiple attention mechanisms run in parallel to focus on different parts of the input.
+What is the formula for scaled dot-product attention?,"Attention(Q,K,V)=softmax(QKTdk)V\text{Attention}(Q, K, V) = \text{softmax}\left(\frac{QK^T}{\sqrt{d_k}}\right)VAttention(Q,K,V)=softmax(dk QKT )V."
+How many layers are in the base Transformer encoder and decoder?,6 layers each.
+What is positional encoding used for?,To provide information about the position of tokens since the model lacks recurrence.
+What kind of positional encoding is used?,Sinusoidal functions of different frequencies.
+What optimizer is used for training?,Adam optimizer with a custom learning rate schedule.
+What regularization methods are used?,Dropout and label smoothing.

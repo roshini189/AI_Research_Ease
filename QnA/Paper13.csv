@@ -1,0 +1,16 @@
+Question,Answer
+Who are the authors of the paper?,"Jintao Liu, Ruixue Ding, Linhao Zhang, Pengjun Xie, and Fie Huang."
+What does CoFE-RAG stand for?,Comprehensive Full-chain Evaluation framework for Retrieval-Augmented Generation.
+What are the four main stages of a RAG system as defined in this paper?,"Chunking, Retrieval, Reranking, and Generation."
+What key problem does CoFE-RAG aim to solve?,"It improves RAG evaluation by addressing limited data diversity, problem localization, and unstable retrieval evaluation."
+What unique method is introduced for evaluating retrieval quality?,Multi-granularity keywords (coarse-grained and fine-grained keywords).
+What is the role of coarse-grained keywords?,To identify relevant chunks loosely based on topic keywords.
+What is the role of fine-grained keywords?,To pinpoint specific pieces of information needed to answer the query.
+What types of documents are used in the benchmark dataset?,"PDF, DOC, PPT, and XLSX formats."
+What are the four types of queries included in the dataset?,"Factual, Analytical, Comparative, and Tutorial queries."
+What is the total number of reviewed queries included in the dataset?,"2,826 queries."
+What evaluation metrics are used for the generation stage?,"BLEU, ROUGE-L, Faithfulness, Relevance, and Correctness."
+Which LLM performed the best in generation?,GPT-4o.
+Which embedding model achieved the best retrieval accuracy?,bge-large-zh-v1.5.
+Which reranker achieved the best accuracy?,bge-reranker-large.
+What chunk size led to the best performance in the experiments?,512 tokens.

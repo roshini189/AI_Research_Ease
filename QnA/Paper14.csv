@@ -1,0 +1,16 @@
+Question,Answer
+Who are the authors of the paper?,"Yunfan Gao, Yun Xiong, Xinyu Gao, Kangxiang Jia, Jinliu Pan, Yuxi Bi, Yi Dai, Jiawei Sun, Meng Wang, and Haofen Wang."
+What does RAG stand for?,Retrieval-Augmented Generation.
+What problem does RAG aim to solve?,RAG reduces hallucination and improves knowledge accuracy in LLMs.
+What are the three main RAG paradigms discussed?,"Naive RAG, Advanced RAG, and Modular RAG."
+What are the core stages of a RAG system?,"Retrieval, Generation, and Augmentation."
+What is a key limitation of Naive RAG?,It may retrieve irrelevant chunks and generate hallucinated or repetitive answers.
+What improvements does Advanced RAG introduce?,It uses pre- and post-retrieval optimization like query rewriting and reranking.
+What makes Modular RAG different?,"It adds flexible modules like memory, routing, task adapters, and generation prediction."
+How does RAG compare with fine-tuning?,"RAG allows dynamic updates with external data, while fine-tuning deeply adapts the model but is more static."
+What are common data sources for retrieval?,"Unstructured (text), semi-structured (PDFs), and structured (knowledge graphs)."
+What is retrieval granularity?,"It refers to the unit of retrieval—e.g., token, sentence, chunk, or document."
+What are some indexing strategies mentioned?,"Recursive splitting, metadata attachment, and knowledge graph-based structures."
+What is the purpose of reranking in RAG?,To prioritize the most relevant chunks for LLM input.
+What are the three types of retrieval augmentation?,"Iterative retrieval, recursive retrieval, and adaptive retrieval."
+What are the main evaluation aspects of RAG?,"Context relevance, answer faithfulness, answer relevance, noise robustness, and information integration."

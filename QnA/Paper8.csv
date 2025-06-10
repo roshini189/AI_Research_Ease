@@ -1,0 +1,16 @@
+Question,Answer
+Who are the authors of the paper?,Sinno Jialin Pan and Qiang Yang.
+What is transfer learning?,It is a method that transfers knowledge from one domain or task to another to improve learning performance.
+Why is transfer learning needed?,"Because in many real-world cases, training and test data may have different distributions or feature spaces."
+What are the three main settings of transfer learning?,"Inductive, transductive, and unsupervised transfer learning."
+What is inductive transfer learning?,When the source and target tasks are different but some labeled data exist in the target domain.
+What is transductive transfer learning?,"When the tasks are the same, but the domains are different and no labeled data is available in the target domain."
+What is unsupervised transfer learning?,"When both domains and tasks are different, and there is no labeled data in either domain."
+What are the four approaches to transfer learning based on “what to transfer”?,"Instance transfer, feature representation transfer, parameter transfer, and relational knowledge transfer."
+What is negative transfer?,When transferring knowledge actually reduces the performance on the target task.
+What is TrAdaBoost?,A boosting-based algorithm designed for instance transfer in inductive transfer learning.
+What is the Structural Correspondence Learning (SCL) method used for?,"For feature representation transfer, especially in NLP tasks."
+What is Transfer Component Analysis (TCA)?,A method to reduce domain difference by finding a shared subspace across domains.
+What is the difference between transfer learning and multitask learning?,"Transfer learning focuses on improving one target task, while multitask learning learns multiple tasks simultaneously."
+What are pivot features in SCL?,Shared features used to connect the source and target domains during feature transfer.
+What are common applications of transfer learning?,"Text classification, sentiment analysis, WiFi localization, spam filtering, and cross-language tasks."

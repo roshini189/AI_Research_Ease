@@ -1,0 +1,16 @@
+Question,Answer
+Who are the authors of the paper?,"MD Shaikh Rahman, Syed Maudud E Rabbi, and Muhammad Mahbubur Rashid."
+What is the main goal of the paper?,To benchmark FAISS and Annoy using fine-tuned deep learning features for image retrieval.
+Which deep learning model is used for feature extraction?,"ResNet50, fine-tuned on a fashion dataset."
+What dataset is used in the study?,The Fashion Product Images Dataset from Kaggle.
+What are the key metrics used for evaluation?,"Precision, recall, F1-score, recall@5, indexing time, memory usage, and query time."
+What indexing libraries are compared?,FAISS and Annoy.
+Which distance metrics were tested in Annoy?,"Angular, Euclidean, and Manhattan."
+Which FAISS methods achieved the highest precision?,"FAISS (L2), FAISS (PQ), and FAISS (HNSW) with ~98.4–98.5% precision."
+What was the fastest method in terms of query speed?,Annoy (Angular) with 16 microseconds per query.
+Which FAISS method had the highest recall?,FAISS (HNSW) with 98.5% recall.
+What is Product Quantization (PQ) used for in FAISS?,To compress vectors and reduce memory usage.
+Which method used the least memory overall?,Annoy (Angular) with ~0.00019 MB memory usage.
+Which indexing method is recommended for real-time applications?,Annoy (Angular) due to its speed and low memory usage.
+What performance trade-off does FAISS (HNSW) show?,High accuracy but slower queries and higher memory usage.
+How was the model trained and validated?,"Using an 11-epoch training cycle with early stopping, learning rate scheduling, and Adam optimizer."

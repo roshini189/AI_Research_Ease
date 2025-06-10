@@ -1,0 +1,16 @@
+Question,Answer
+Who are the authors of the paper?,"John Jumper, Richard Evans, Alexander Pritzel, Tim Green, Michael Figurnov, and others from DeepMind."
+What is the name of the model introduced?,AlphaFold.
+What problem does AlphaFold solve?,It predicts the 3D structure of proteins from their amino acid sequences.
+Why is protein structure prediction important?,Because it helps us understand protein function and aids in drug discovery and disease research.
+What challenge does AlphaFold overcome?,"Predicting protein structures with atomic accuracy, even without similar known structures."
+What global competition validated AlphaFold’s performance?,CASP14 (Critical Assessment of protein Structure Prediction).
+How did AlphaFold perform in CASP14?,"It achieved a median backbone accuracy of 0.96 Å, far better than other methods."
+What is the core architecture used in AlphaFold?,A deep neural network featuring the Evoformer and structure modules.
+What is the Evoformer block?,A part of the network that processes sequence and pairwise residue information using attention and geometric constraints.
+What is the pLDDT score?,A confidence score predicting the accuracy of each residue’s position.
+What input does AlphaFold require?,"The amino acid sequence, multiple sequence alignments (MSAs), and template structures if available."
+What databases support AlphaFold’s input data?,"UniRef90, BFD, Uniclust30, MGnify, and PDB."
+What training strategy improved AlphaFold’s accuracy?,Self-distillation using high-confidence predictions from a previously trained network.
+What is “recycling” in AlphaFold?,A process where the model reuses its own predictions to refine structure iteratively.
+How fast is AlphaFold’s inference?,It can predict the structure of a 384-residue protein in around 1 GPU minute.

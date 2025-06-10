@@ -1,0 +1,16 @@
+Question,Answer
+Who are the authors of the paper?,"Jacob Biamonte, Peter Wittek, Nicola Pancotti, Patrick Rebentrost, Nathan Wiebe, and Seth Lloyd."
+What is the main topic of the paper?,The potential of quantum computers to enhance machine learning.
+"What does ""quantum speedup"" mean?",It means solving problems faster with quantum algorithms than with classical ones.
+What does HHL stand for?,"Harrow, Hassidim, and Lloyd—the authors of the quantum linear system solving algorithm."
+What is qPCA in quantum machine learning?,Quantum Principal Component Analysis—a quantum version of PCA.
+What does qRAM stand for?,Quantum Random Access Memory.
+What is a key advantage of quantum PCA over classical PCA?,It runs exponentially faster by scaling as O((log d)²).
+What is a quantum Boltzmann machine?,A quantum version of a Boltzmann machine using quantum spins.
+What are quantum annealers used for?,Solving optimization problems using quantum effects.
+What is the main challenge in using classical data with quantum algorithms?,The input and output (I/O) bottleneck—loading and reading data is costly.
+What is the purpose of the HHL algorithm?,To solve linear equations efficiently on a quantum computer.
+What is QAOA in this context?,Quantum Approximate Optimization Algorithm.
+What are kernel methods used for in quantum SVM?,To handle non-linear data classification in high dimensions.
+What type of quantum machine is the D-Wave?,A quantum annealer optimized for combinatorial optimization.
+What problem does quantum machine learning best apply to immediately?,"Learning from quantum data, like quantum states and dynamics."

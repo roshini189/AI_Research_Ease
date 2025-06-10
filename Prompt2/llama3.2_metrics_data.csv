@@ -1,0 +1,298 @@
+filename,pdf_size_kb,num_pages,original_word_count,summary_word_count_llama3.2,model_used,summarization_time_sec,summary_text,rouge1_fmeasure,rouge2_fmeasure,rougeL_fmeasure,bertscore_precision,bertscore_recall,bertscore_f1,bertscore_avg
+paper1.pdf,803.05,23,23064,261,llama3.2,27.91,"Based on the provided references, this is a review article discussing various aspects of autism spectrum disorder (ASD), including neural correlates, behavioral characteristics, and potential therapeutic approaches.
+
+The article covers a range of topics, including:
+
+1. Neural correlates: The authors discuss the neural mechanisms underlying ASD, highlighting areas of altered brain structure and function, such as changes in cortical thickness, white matter integrity, and functional connectivity.
+2. Behavioral characteristics: The review explores the behavioral features of individuals with ASD, including social communication deficits, restricted interests, and repetitive behaviors.
+3. Sensory processing: The authors discuss the complex sensory experiences of individuals with ASD, which can range from hypersensitivity to hyposensitivity in various domains.
+4. Neuroimaging techniques: The article highlights the use of neuroimaging techniques, such as functional magnetic resonance imaging (fMRI) and electroencephalography (EEG), to study brain function in individuals with ASD.
+
+The review also touches on potential therapeutic approaches, including:
+
+1. Behavioral interventions: The authors discuss the effectiveness of behavioral interventions, such as applied behavior analysis (ABA) and social skills training, in improving social communication and reducing problem behaviors.
+2. Pharmacological treatments: The review highlights the use of pharmacological agents, such as stimulants and anticonvulsants, to manage co-occurring conditions, such as attention deficit hyperactivity disorder (ADHD) and seizure disorders.
+3. Neurostimulation techniques: The article explores the potential benefits of neurostimulation techniques, such as transcranial magnetic stimulation (TMS) and transcranial direct current stimulation (tDCS), in improving cognitive and behavioral function.
+
+Overall, this review article provides a comprehensive overview of the neural correlates, behavioral characteristics, and potential therapeutic approaches for autism spectrum disorder.",0.20924943138741475,0.04555808656036446,0.10765731614859742,0.8429044485092163,0.8244988322257996,0.8336000442504883,0.8336677749951681
+paper2.pdf,518.05,9,4780,169,llama3.2,21.5,"This is a LaTeX document that appears to be a research paper on deep learning, specifically generative models. The text includes references to various papers and authors in the field.
+
+Here are some key points about the document:
+
+1. **Authorship**: The document was written by several authors, including Ian Goodfellow, Yoshua Bengio, Dario Amodei, and others.
+2. **Research focus**: The paper focuses on generative models, specifically deep convolutional GANs (Generative Adversarial Networks).
+3. **Key concepts**: The document discusses key concepts in the field of deep learning, including neural networks, deep architectures, and generative models.
+4. **References**: The paper includes over 30 references to other research papers in the field, indicating a high level of scholarship and engagement with existing literature.
+5. **Style**: The text is written in a formal, academic style, suggesting that it is intended for publication in a research journal or conference proceedings.
+
+Overall, this document appears to be a research paper on deep learning, specifically generative models, written by a team of researchers in the field.",0.2128556375131718,0.04435058078141499,0.10537407797681769,0.8379244804382324,0.8070350885391235,0.8221898078918457,0.8223831256230673
+paper3.pdf,800.18,12,9927,291,llama3.2,29.66,"This text appears to be a summary of a research paper or a technical report, likely related to computer vision and object detection. The content is dense and technical, indicating that it may be intended for an audience with a strong background in the field.
+
+The paper discusses several aspects of object detection and image classification using deep learning techniques. It presents a new framework that combines image classification and object detection tasks into a single model, leveraging both convolutional neural networks (CNNs) and region-based convolutional neural networks (R-CNNs).
+
+Here are some key points from the summary:
+
+1. **Object Detection Framework**: The authors propose a new object detection framework that uses a combination of CNNs and R-CNNs to detect objects in images.
+2. **Proposal Network**: A separate network, called the proposal network, is used to predict bounding boxes for each class in an image.
+3. **RoI-pooling**: The predicted bounding boxes are then used to extract region-of-interest (RoI) features from the original image using RoI-pooling.
+4. **Image Classification**: A separate CNN classifier is trained to predict the object class labels for each RoI feature.
+5. **Ensemble Method**: An ensemble method is proposed to combine the predictions of multiple networks, improving overall performance.
+
+The paper also discusses various techniques and results, including:
+
+1. **Dense (fully convolutional) testing**: The authors use a dense network with multiple scales to improve detection accuracy.
+2. **Multi-scale testing**: The framework can be easily extended to support multi-scale testing, allowing for more accurate detection at different scales.
+3. **Top-5 localization error**: The authors achieve significant improvements over state-of-the-art methods in terms of top-5 localization error.
+
+Overall, the paper presents a novel approach to object detection and image classification that combines multiple techniques and achieves impressive results on various benchmarks.",0.30230414746543777,0.08310249307479224,0.14377880184331795,0.8433559536933899,0.8275487422943115,0.8353776335716248,0.835427443186442
+paper4.pdf,534.24,24,10105,380,llama3.2,32.43,"It seems that you started to write an abstract and introduction for a paper on quantum machine learning, but it was cut off. Here is the completed text:
+
+Abstract:
+Fuelled by increasing computer power and algorithmic advances, machine learning techniques have become powerful tools for finding patterns in data. Since quantum systems produce counter-intuitive patterns believed not to be efficiently produced by classical systems, it is reasonable to postulate that quantum computers may outperform classical computers on machine learning tasks. The field of quantum machine learning explores how to devise and implement concrete quantum software that offers such advantages. Recent work has made clear that the hardware and software challenges are still considerable but has also opened paths towards solutions.
+
+Introduction
+Long before they possessed computers, human beings strove to find patterns in data. Ptolemy fit observations of the motions of the stars to a geocentric model, while Kepler discovered the laws of planetary motion through careful observation and mathematical formulation. These early achievements set the stage for centuries of scientific discovery and technological progress.
+
+Today, machine learning techniques have become an essential tool for analyzing and understanding complex data in various fields, including physics, biology, economics, and finance. The rapid growth of data volumes and complexities has led to the development of sophisticated algorithms that can automatically learn patterns from large datasets. However, these classical machine learning methods may not be suitable for quantum systems due to their unique properties.
+
+Quantum systems exhibit counter-intuitive behavior, such as superposition and entanglement, which are difficult to replicate using classical computers. This has led researchers to explore the potential of quantum machines to outperform classical computers in certain machine learning tasks. The field of quantum machine learning is an active area of research that aims to develop concrete quantum software solutions to harness these advantages.
+
+In this paper, we will discuss recent advances and challenges in quantum machine learning, highlighting the current state of research in the field. We will also explore some potential applications and implications of quantum machine learning for various fields and industries. Our goal is to provide a comprehensive overview of the current understanding and future directions of quantum machine learning, and to contribute to the ongoing debate about the potential advantages of quantum machines over classical computers.",0.42857142857142855,0.1431064572425829,0.19860627177700346,0.8645070791244507,0.8432007431983948,0.8537209630012512,0.8538095951080322
+paper5.pdf,2163.32,15,6615,274,llama3.2,25.32,"This text appears to be a collection of notes or a draft for a research paper or presentation on natural language processing (NLP) and machine learning, specifically focusing on attention mechanisms in deep learning models.
+
+The text includes various sections, such as:
+
+1. A list of references with citations, which suggests that the document is an academic work.
+2. Examples of attention visualizations, which are likely generated by a deep learning model to illustrate how the attention mechanism works.
+3. Quotes and phrases related to law and politics, which seem unrelated to the main topic of NLP and machine learning.
+
+The text also includes several sections with repeated phrases, such as:
+
+* ""The Law will never be perfect, but its application should be just - this is what we are missing, in my opinion.""
+* ""<EOS> <pad> The Law will never be perfect, but its application should be just - this is what we are missing, in my opinion."" ( repeated multiple times)
+
+These repeated phrases and quotes seem to serve no purpose other than adding noise to the document. They appear to be random text that does not relate to the main topic of NLP and machine learning.
+
+The text also includes some visualizations and diagrams, such as Figure 3 and Figure 4, which are likely generated by a deep learning model to illustrate how the attention mechanism works.
+
+Overall, this text appears to be a draft or a set of notes for an academic work on NLP and machine learning. However, it is unclear what the main topic or purpose of the document is, given the presence of unrelated quotes and phrases.",0.25688073394495414,0.027573529411764705,0.12293577981651375,0.8117809891700745,0.786044716835022,0.7987055778503418,0.7988437612851461
+paper6.pdf,757.0,16,10401,200,llama3.2,22.52,"This text appears to be a summary of a research paper on natural language processing (NLP) and deep learning, specifically focusing on the performance and optimization of BERT (Bidirectional Encoder Representations from Transformers), a popular language model.
+
+The paper discusses several aspects of BERT's pre-training and fine-tuning, including:
+
+1. **Pre-training strategies**: The authors discuss the different masking procedures used during pre-training with the masked language model (MLM) objective, such as mixed strategy, left-to-right, and others.
+2. **Effect of number of training steps**: The paper shows that BERT requires a significant amount of pre-training (1 million steps) to achieve high fine-tuning accuracy on the MNLI task.
+3. **Ablation studies**: The authors conduct ablation studies to evaluate the effect of different masking strategies, feature-based approaches, and other factors on the performance of BERT.
+
+The results presented in the paper show that:
+
+* Fine-tuning with BERT is surprisingly robust to different masking strategies.
+* Using only the M ASK strategy was problematic when applying the feature-based approach to NER.
+* The R ND strategy performs much worse than the mixed strategy.
+
+Overall, this text appears to be a summary of research on optimizing and fine-tuning the performance of BERT for various NLP tasks.",0.2604074402125775,0.08518189884649513,0.13463241806908768,0.8541014194488525,0.8287022709846497,0.8412101864814758,0.8413379589716593
+paper7.pdf,1642.34,22,24139,206,llama3.2,22.98,"This text appears to be a summary or introduction to a survey paper on Graph Neural Networks (GNNs) in the field of data mining and machine learning. The main points covered are:
+
+1. **Overview**: The author introduces the topic of GNNs, which have emerged as a promising approach for extending deep learning methods to graph-structured data.
+2. **Background**: The text mentions that traditional machine learning algorithms struggle with graph data due to its complex relationships and interdependencies between objects.
+3. **Graph Neural Networks (GNNs)**: The author provides an overview of GNNs, which learn to process graph-structured data in a way that is inspired by the structure of graphs themselves.
+4. **Applications**: The text highlights various applications where GNNs have been successfully applied, including image classification, natural language processing, and recommendation systems.
+
+The summary then shifts to provide more detailed information on specific topics, such as:
+
+* **Reported Experimental Results**: A table summarizing experimental results from a survey of node classification tasks.
+* **Open-source Implementations**: A list of open-source implementations of GNNs reviewed in the survey, along with hyperlinks to their source codes.
+
+The final sentence mentions that this text provides a comprehensive overview of graph neural networks in the field of data mining and machine learning.",0.3053016453382084,0.1208791208791209,0.1553930530164534,0.8615107536315918,0.835055947303772,0.848077118396759,0.8482146064440409
+paper8.pdf,2538.92,15,14574,171,llama3.2,19.46,"This text appears to be an abstract or introduction to a research survey on Transfer Learning. Here's a breakdown of the content:
+
+**Summary**: The authors introduce the concept of Transfer Learning, which addresses the issue that training data may not be in the same feature space or distribution as future data.
+
+**Problem Statement**: The authors highlight a common problem in machine learning and data mining where training and future data may have different distributions or feature spaces.
+
+**Focus**: The survey focuses on categorizing and reviewing current progress on Transfer Learning for three types of problems: classification, regression, and clustering.
+
+**Key Takeaway**: The introduction suggests that Transfer Learning has emerged as a promising approach to address the limitations of traditional machine learning algorithms, enabling knowledge transfer between different domains or data distributions.
+
+The text provides a good overview of the context and significance of Transfer Learning in machine learning and data mining. It sets the stage for the survey to explore various aspects of Transfer Learning, including its applications, techniques, and challenges.",0.27089337175792505,0.10202117420596728,0.1402497598463016,0.866210401058197,0.8226877450942993,0.8438882827758789,0.8442621429761251
+paper9.pdf,842.54,16,7409,215,llama3.2,26.13,"It appears you have provided a list of authors and affiliations for a scientific paper published in Physical Review Letters (PRL). The paper's title is not provided, but based on the affiliations, it seems to be related to gravitational physics and the detection of gravitational waves.
+
+Here are some key takeaways from the affiliations:
+
+1. **LIGO Scientific Collaboration**: This indicates that the authors are affiliated with the Laser Interferometer Gravitational-Wave Observatory (LIGO), which is a network of detectors designed to measure gravitational waves.
+2. **Virgo Collaboration**: This suggests that the authors are also affiliated with the Virgo detector, another gravitational wave detector located in Italy.
+3. **Università di Salerno** and **INFN Napoli**: These affiliations indicate that some authors are from the University of Salerno and the INFN (Istituto Nazionale di Fisica Nucleare) laboratory in Naples, Italy.
+4. **Louisiana State University**: One author is affiliated with Louisiana State University, which suggests a connection to the LIGO Livingston Observatory.
+5. **Université Savoie Mont Blanc** and **Laboratoire d'Annecy-le-Vieux de Physique des Particules (LAPP)**: These affiliations indicate that some authors are from France and work at the University of Savoy and the LAPP laboratory.
+
+Please note that this analysis is limited to the provided list of affiliations and does not provide any information about the paper's content or results.",0.19633943427620631,0.043333333333333335,0.10648918469217972,0.7972477078437805,0.7709358930587769,0.783871054649353,0.7840182185173035
+paper10.pdf,1527.71,24,18132,319,llama3.2,34.92,"I'll summarize the main points from the text.
+
+**Indexing in Faiss**
+
+Faiss is an open-source library for efficient similarity search and clustering of dense vectors. The indexing data structure used by Faiss is designed to be flexible and customizable, with various options for compression and search methods.
+
+**Index Classes**
+
+Faiss provides several index classes, grouped into families:
+
+*   **Flat Index**: A simple index that stores all vectors in a single array.
+*   **IVF (Inverted File) Index**: An inverted file index that stores vectors by their codes.
+*   **HNSW (Hierarchical Navigable Small World) Index**: A graph-based index that is optimized for fast search and similarity queries.
+*   **Product-Additive Index**: An index that combines product quantization with additive quantization.
+
+**Quantizer Hierarchy**
+
+Faiss provides a hierarchy of quantizers, which are used to encode vectors into codes. The hierarchy includes:
+
+*   **Scalar Quantizer**: A basic quantizer that maps all values to the same code.
+*   **Binarization**: A quantizer that maps values to binary strings.
+*   **Product Quantizer**: A quantizer that maps values using a product function.
+
+**Index Methods**
+
+Faiss provides several methods for adding, searching, and removing vectors from an index. These include:
+
+*   `train(x)`: Trains the index on the input vectors `x`.
+*   `add(x)`: Adds the input vector `x` to the index.
+*   `add with ids(x, I)`: Adds the input vector `x` to the index and assigns it a unique ID from the list `I`.
+*   `search(x, k)`: Returns the `k` nearest neighbors of each query vector in the input list `x`.
+*   `range search(x, ε)`: Returns all vectors within radius `ε` of each query vector.
+*   `remove ids(I)`: Removes vectors with IDs from the list `I` from the index.
+
+**Factory Strings**
+
+Faiss provides factory strings for creating indices. These strings can be used to create indexes with specific configurations.
+
+Overall, Faiss provides a flexible and customizable indexing system that can be used for efficient similarity search and clustering of dense vectors.",0.31928687196110206,0.08603896103896104,0.1377633711507293,0.8066888451576233,0.8191568851470947,0.8128750920295715,0.8129069407780966
+paper11.pdf,749.61,37,10509,423,llama3.2,39.65,"This is a comprehensive report on Retrieval Augmented Generation (RAG) systems, a new approach to improve large language models by grounding their outputs in real-time, relevant information. The report covers various aspects of RAG systems, including:
+
+1. **Introduction**: The report introduces the concept of RAG systems and their potential applications in industries like healthcare, legal research, and technical documentation.
+2. **Building RAG Systems**: The report provides a step-by-step guide on building RAG systems that use PDF documents as the data source. It covers topics such as:
+	* Handling complex PDFs
+	* Extracting useful text from PDFs
+	* Using proprietary APIs like OpenAI's GPT
+	* Using open-source models like Llama 3.1
+3. **Options and Tools**: The report discusses various options and tools available for building RAG systems, including:
+	* Haystack: An open-source framework that integrates dense and sparse retrieval methods with large-scale language models.
+	* Elasticsearch with Vector Search: Enhanced support for dense vector search capabilities, allowing RAG models to perform more sophisticated retrieval tasks.
+4. **Emerging Trends**: The report highlights emerging trends in the field of RAG systems, including:
+	* Adaptive learning
+	* Multi-modal capabilities
+	* Cross-lingual and multimodal retrieval
+5. **Conclusion**: The report concludes that RAG systems will play a key role in industries like healthcare, legal research, and technical documentation as technology advances.
+
+**Key Takeaways**
+
+1. RAG systems offer a new approach to improve large language models by grounding their outputs in real-time, relevant information.
+2. Building RAG systems requires handling complex PDFs, extracting useful text, and using proprietary APIs or open-source models.
+3. Haystack and Elasticsearch with Vector Search are two options available for building RAG systems.
+4. Emerging trends in RAG systems include adaptive learning, multi-modal capabilities, and cross-lingual and multimodal retrieval.
+
+**Recommendations**
+
+1. Developers should follow the recommendations in this guide to build effective RAG systems.
+2. The use of open-source models like Llama 3.1 can be an alternative to proprietary APIs like OpenAI's GPT.
+3. Developers should explore emerging trends in RAG systems, including adaptive learning and multi-modal capabilities.
+
+**Future Research Directions**
+
+1. Adaptive learning techniques that allow RAG models to continuously fine-tune themselves based on new data and user feedback.
+2. Cross-lingual retrieval and multimodal data processing to make RAG models more versatile and applicable to a wider range of global and multimedia tasks.
+
+Overall, this report provides a comprehensive overview of RAG systems and their potential applications in various industries. It highlights the importance of adapting language models to real-time information sources and provides guidance on building effective RAG systems using available tools and options.",0.4751020408163266,0.16680294358135733,0.18285714285714288,0.8578177094459534,0.8429458737373352,0.8503168225288391,0.8503601352373759
+paper12.pdf,1185.13,14,9389,223,llama3.2,23.58,"This text appears to be a collection of academic papers and research articles related to computer science, particularly in the areas of machine learning, data mining, and natural language processing.
+
+The text includes references to various papers, datasets, and tools, such as:
+
+* Google's ScaNN (Efficient Vector Similarity Search)
+* Kaggle's Fashion Product Images Dataset
+* PMLR (Public Machine Learning Research) paper on Adafactor: Adaptive Learning Rates with Sublinear Memory Cost
+* ACM Comput Surv paper on A Review of the F-Measure: Its History, Properties, Criticism, and Alternatives
+
+The text also includes references to various evaluation metrics, such as:
+
+* Precision, recall, and F-measure
+* ROC (Receiver Operating Characteristic) curves
+* Informedness and markedness measures
+* Matthews correlation coefficient (MCC)
+* Accuracy
+
+Overall, this text appears to be a collection of resources and references for researchers and students working in the field of machine learning and data science.
+
+Some possible questions or tasks that could be answered using this text include:
+
+* What is ScaNN, and how does it improve vector similarity search?
+* How can I evaluate the performance of my machine learning model using metrics such as precision, recall, and F-measure?
+* What are some advantages of using the Matthews correlation coefficient (MCC) over other evaluation metrics?
+
+Please let me know if you have any specific questions or tasks in mind!",0.19173553719008268,0.03642384105960265,0.09917355371900827,0.8166303038597107,0.8006469011306763,0.8085595965385437,0.8086122671763102
+paper13.pdf,523.25,11,7230,406,llama3.2,40.13,"The paper proposes a Comprehensive Full-chain Evaluation (CoFE-RAG) framework to evaluate Retrieval-Augmented Generation (RAG) systems comprehensively, addressing several challenges in existing evaluation methods. The authors aim to provide a thorough evaluation across the entire RAG pipeline, including chunking, retrieval, reranking, and generation.
+
+**Key contributions:**
+
+1. **Multi-granularity keywords**: Introducing coarse-grained and fine-grained keywords to assess the retrieved context, instead of relying on annotated golden chunks.
+2. **Holistic benchmark dataset**: Releasing a comprehensive benchmark dataset covering diverse data scenarios, including various document formats and query types.
+3. **CoFE-RAG framework**: Proposing a full-chain evaluation framework that encompasses chunking, retrieval, reranking, and generation stages.
+
+**Challenges addressed:**
+
+1. **Limited data diversity**: The authors acknowledge the limited diversity of knowledge sources and query types in existing datasets, which constrains the applicability of RAG systems.
+2. **Obscure problems location**: Existing evaluation methods struggle to locate where problems occur within the RAG pipeline.
+3. **Unstable retrieval evaluation**: Current methods often fail to effectively assess retrieval performance, particularly when chunking strategies change.
+
+**Methodology:**
+
+1. **Data collection**: The authors collect a large dataset of diverse documents and queries, which serves as the foundation for their benchmark dataset.
+2. **Multi-granularity keywords annotation**: They introduce coarse-grained and fine-grained keywords to annotate the retrieved context, enabling more accurate evaluation.
+3. **CoFE-RAG framework implementation**: The authors develop and implement the CoFE-RAG framework, which evaluates each stage of RAG systems comprehensively.
+
+**Experiments:**
+
+The authors conduct experiments on the proposed benchmark dataset, evaluating the performance of various RAG systems using the CoFE-RAG framework. They compare their results with state-of-the-art baselines and demonstrate the utility of their framework.
+
+**Impact:**
+
+The paper's contributions have significant implications for the evaluation and development of RAG systems. By providing a comprehensive evaluation framework, researchers can more effectively assess the performance of these systems and identify areas for improvement. The release of a holistic benchmark dataset also provides a valuable resource for future research and development in this area.
+
+**Open issues:**
+
+1. **Scalability**: The authors acknowledge that evaluating RAG systems on large datasets may be computationally expensive.
+2. **Domain adaptation**: They note that the proposed framework may not be directly applicable to new domains or tasks without further adaptation.
+3. **Adversarial attacks**: The authors recognize that RAG systems may be vulnerable to adversarial attacks, and future work should focus on developing methods to mitigate these threats.
+
+Overall, the paper presents a significant contribution to the field of RAG evaluation, providing a comprehensive framework for evaluating these complex systems.",0.44237175216522323,0.18545697131420946,0.19187208527648233,0.8681867122650146,0.8478580713272095,0.8579019904136658,0.8579822580019633
+paper14.pdf,1623.6,21,16024,173,llama3.2,21.5,"This is not a review paper in the classical sense, but rather an abstract that summarizes the main points of a comprehensive review article on Retrieval-Augmented Generation (RAG). Here's a breakdown of the key elements:
+
+**Topic**: The topic is RAG, which is a promising solution to improve the capabilities of Large Language Models (LLMs) by incorporating knowledge from external databases.
+
+**Key challenges**: LLMs face challenges such as hallucination, outdated knowledge, and non-transparent reasoning processes.
+
+**Solution**: RAG emerges as a solution by combining the strengths of LLMs with external databases.
+
+**Progression of RAG paradigms**: The paper covers three main RAG paradigms:
+
+1. Naive RAG
+2. Advanced RAG
+3. Modular RAG
+
+Each paradigm has its own foundation, which includes:
+
+1. Retrieval techniques
+2. Generation techniques
+3. Augmentation techniques
+
+**Comprehensive review**: The paper provides a detailed examination of the RAG paradigms, their strengths and weaknesses, and their applications.
+
+Overall, this abstract suggests that the paper will provide an in-depth analysis of the RAG paradigm, its evolution, and its potential applications, highlighting its advantages over traditional LLMs.",0.21903959561920808,0.0759493670886076,0.11457455770850886,0.8589375019073486,0.8370055556297302,0.8478296995162964,0.8479242523511251
+paper15.pdf,3566.4,12,7809,171,llama3.2,19.92,"This is a reporting summary for a scientific manuscript, specifically for the Nature Research journal. The document provides guidelines and requirements for authors to follow when submitting their manuscript.
+
+Here are some key points from the document:
+
+1. **Reporting Summary**: This document is intended to help authors complete a standardized reporting summary for their manuscripts.
+2. **Life Sciences Study Design**: All studies must disclose on certain points, including sample size, data exclusions, and replication. Since this study does not involve experimental work, there is no need to disclose these points.
+3. **Data Policy**: The manuscript includes a statement about the availability of input data, which are freely available from public sources.
+4. **Materials & Experimental Systems**: There is no mention of materials or systems used in the study.
+5. **Methods**: There is no involvement of certain methods listed, such as ChIP-seq or MRI-based neuroimaging.
+
+Overall, this reporting summary provides guidelines for authors to follow when submitting their manuscripts to Nature Research, including information about data availability, sample size, and experimental design.",0.17463617463617462,0.016666666666666666,0.079002079002079,0.8154973983764648,0.786872386932373,0.8009292483329773,0.8010996778806051
