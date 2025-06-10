@@ -1,6 +1,6 @@
 # 🧠 AIResearchEase – Simplifying Research with AI 🤖📄
 
-**AIResearchEase** is a secure, intelligent AI-powered web application designed to simplify academic research workflows. Built using Retrieval-Augmented Generation (RAG), FAISS-based semantic search, and local Large Language Models (LLMs), the app lets users upload research papers and ask context-aware questions — receiving instant, accurate answers.
+**AIResearchEase** is a secure, intelligent AI-powered web application designed to simplify academic research workflows. Built using Retrieval-Augmented Generation (RAG), FAISS-based semantic search, and local Large Language Models (LLMs), the app lets users upload research papers and ask context-aware questions, receiving instant, accurate answers.
 
 ---
 
@@ -39,4 +39,4 @@
 
 - **Local-Only Inference** with Ollama (no external API calls)  
 - **AES-level Secure File Handling**  
-- 
+
